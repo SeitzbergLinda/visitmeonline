@@ -87,6 +87,28 @@ header {
 
 /*Kontakt css*/
 
+<<<<<<< HEAD
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+/*html{    background:url(http://thekitemap.com/images/feedback-img.jpg) no-repeat;
+  background-size: cover;
+  height:100%;
+}*/
+
+/*#feedback-page{
+	text-align:center;
+}*/
+
+#form-main{
+	width:100%;
+	/*float:left;*/
+	padding-top:0px;
+	
+}
+
+#form-div {
+	background-color:rgb(248,148,6);
+=======
 
 
 #form-main{
@@ -97,6 +119,7 @@ header {
 
 #form-div {
 	background-color:rgb(235,149,50);
+>>>>>>> refs/remotes/origin/master
 	padding-left:35px;
 	padding-right:35px;
 	padding-top:35px;
@@ -104,14 +127,22 @@ header {
 	float: left;
 	
 	
+<<<<<<< HEAD
+  margin-top:30px;
+=======
   margin-top:10px;
   border-radius: 7px;
+>>>>>>> refs/remotes/origin/master
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
 }
 
 #form-div2 {
+<<<<<<< HEAD
+	background-color:rgb(248,148,6);
+=======
 	background-color:rgb(235,149,50);
+>>>>>>> refs/remotes/origin/master
 	padding-left:35px;
 	padding-right:35px;
 	padding-top:35px;
@@ -119,8 +150,12 @@ header {
 	float: left;
 	
 	
+<<<<<<< HEAD
+  margin-top:30px;
+=======
   margin-top:10px;
    border-radius: 7px;
+>>>>>>> refs/remotes/origin/master
   -moz-border-radius: 7px;
   -webkit-border-radius: 7px;
 }
@@ -202,6 +237,14 @@ textarea {
     resize:vertical;
 }
 
+<<<<<<< HEAD
+input:hover, textarea:hover,
+input:focus, textarea:focus {
+	/*background-color:white;*/
+}
+
+=======
+>>>>>>> refs/remotes/origin/master
 #button-blue{
 	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 	float:left;
@@ -216,8 +259,13 @@ textarea {
 	-webkit-transition: all 0.3s;
 	-moz-transition: all 0.3s;
 	transition: all 0.3s;
+<<<<<<< HEAD
+  margin-top:-4px;
+  font-weight:700;
+=======
 	margin-top:-4px;
 	font-weight:700;
+>>>>>>> refs/remotes/origin/master
 }
 
 #button-blue:hover{
@@ -245,6 +293,19 @@ textarea {
   background-color:white;
 }
 
+<<<<<<< HEAD
+@media only screen and (max-width: 580px) {
+	#form-div{
+		left: 3%;
+		margin-right: 3%;
+		width: 88%;
+		margin-left: 0;
+		padding-left: 3%;
+		padding-right: 3%;
+	}
+}
+=======
+>>>>>>> refs/remotes/origin/master
 
 .map{
 	overflow: hidden;
@@ -263,30 +324,55 @@ textarea {
 }
 
 .flexbox-container > div:first-child {
+<<<<<<< HEAD
+	margin-right: 20px;
+=======
 	margin-right: 10px;
+>>>>>>> refs/remotes/origin/master
 }
 
 #contactPageHeader{
 	text-align: center;
+<<<<<<< HEAD
+	background-color:rgb(248,148,6);
+	padding: 10px;
+	-moz-border-radius: 7px;
+  -webkit-border-radius: 7px;
+  padding-left: 15%;
+  padding-right: 15%;
+=======
 	background-color:rgb(45,45,45);
 	padding: 10px;
 	-moz-border-radius: 7px;
 	-webkit-border-radius: 7px;
 	padding-left: 15%;
 	padding-right: 15%;
+>>>>>>> refs/remotes/origin/master
 }
 
 #kontakt{
 	padding: 10px;
+<<<<<<< HEAD
+	background-color:rgb(45,45,45);
+	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+	    font-size: 1.5em;
+=======
 	
 	font-family: 'Montserrat', Arial, Helvetica, sans-serif;
 	    font-size: 1.2em;
+>>>>>>> refs/remotes/origin/master
     color: whitesmoke;
     padding: 10px;
     font-style: italic;
 	
 }
 
+<<<<<<< HEAD
+#kontakt > h1{
+	color: white;
+	font-style: italic;
+}
+=======
 
 
 
@@ -331,3 +417,4 @@ ul li a {
 }
 
 
+>>>>>>> refs/remotes/origin/master
