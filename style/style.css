@@ -365,6 +365,7 @@ textarea {
 	border-radius: 50%;
 }
 
+
 /* Footer */
 
 footer {
@@ -372,4 +373,11 @@ footer {
 	background: linear-gradient(135deg, rgb(248,148,6), #D35400);
 	padding: 12px 0 12px;
 	border-radius: 8px;
+}
+/* Media Queries OmOss */
+
+@media (max-width: 1000px) {
+	#omoss {	
+		position: absolute;
+		}
 }
