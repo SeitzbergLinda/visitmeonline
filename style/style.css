@@ -439,17 +439,10 @@ footer {
 }
 
 	
-
-/*#smallMenu li > a:after { content:  ' +'; }*/
-#smallMenu li > a:only-child:after { content: ''; }
-
-/* Media Queries */
-@media (max-width: 1000px) {
-	#omoss {	
-		position: absolute;
+#omoss {	
+		width: 55%;;
 		}
-	
-}
+
 
 @media screen and (min-width: 600px) {
 	
@@ -459,7 +452,9 @@ footer {
      width:600px;
 	}
 	
-	
+	#omoss {	
+		width: 97%;
+		}
 	.sidhuvud {
     height:135px;
     width:670px;
