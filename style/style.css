@@ -332,6 +332,7 @@ textarea {
 	color: white;
 	padding: 10px;
 	text-align: center;
+	border-radius: 7px;
 }
 #omoss > p{
 	font-size: 1.3em;
@@ -543,4 +544,8 @@ footer {
 }
 
 
+
 }
+
+
+
