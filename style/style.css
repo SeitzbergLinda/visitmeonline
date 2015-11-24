@@ -404,7 +404,13 @@ footer {
 #smallMenu a:hover { 
 	background: #f5db15;
 }
-
+#smallMenu img {
+	width: 30%;
+	position: relative;
+	top: 30px;
+	left: 25px;
+	
+}
 
 #smallMenu ul ul {
 	display: none;
@@ -434,7 +440,7 @@ footer {
 
 	
 
-#smallMenu li > a:after { content:  ' +'; }
+/*#smallMenu li > a:after { content:  ' +'; }*/
 #smallMenu li > a:only-child:after { content: ''; }
 
 /* Media Queries */
